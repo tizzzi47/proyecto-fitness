@@ -1,5 +1,44 @@
-body {
+
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Merriweather+Sans&display=swap');
+
+
+
+body{
     background: #a8ff78;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+ .logo{
+    width: 30px;
+    height: 30px;
+ }
+ .font{
+    font-family: 'Merriweather Sans', sans-serif;
+ }
+ .ap_comida{
+    border-radius: 15px;
+    background-color: rgba(0, 100, 0, 0.457);
+    -webkit-box-shadow: -1px 3px 64px 0px rgba(255,255,255,1);
+-moz-box-shadow: -1px 3px 64px 0px rgba(255,255,255,1);
+box-shadow: -1px 3px 64px 0px rgba(255,255,255,1);
+text-align: center;
+ }
+ .informacion_comida{
+    font-family: 'Indie Flower', cursiva;
+    border-radius: 15px;
+    color: #00a309e0;
+ }
+ .ap_ejercicio{
+    border-radius: 15px;
+    background-color: rgba(87, 87, 87, 0.42);
+    -webkit-box-shadow: -1px 3px 64px 0px rgba(255,255,255,1);
+-moz-box-shadow: -1px 3px 64px 0px rgba(255,255,255,1);
+box-shadow: -1px 3px 64px 0px rgba(255,255,255,1);
+text-align: center;
+ }
+ .informacion_ejercicios{
+    font-family: 'Indie Flower', cursiva;
+    border-radius: 15px;
+    color: #080808e0;
+ }
