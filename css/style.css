@@ -7,9 +7,9 @@
 
 
 body{
-    background: #a8ff78;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #a8ff78;  /* fallback for old browsers*/
+  background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #78ffd6, #a8ff78);  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
  .logo{
     width: 30px;
@@ -17,6 +17,8 @@ body{
  }
  .font{
    font-family: 'Cinzel', serif;
+   text-align: center;
+   margin: auto;
  }
  .ap_comida{
     border-radius: 15px;
@@ -65,4 +67,16 @@ width: 100%;
  }
  .color_form{
    color: white;
+ }
+ .card{
+  transition: all 0.5s;
+ }
+ .card:hover{
+transform: scale(1.15);
+ }
+ .color_cont{
+ background-color: rgba(26, 151, 26, 0.322);
+  border-radius: 30px;
+  padding: 10px;
+  border: 10px solid green;
  }
