@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto fitness.</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="imagenes/logo pag.png">
+</head>
+
+<body  class="fondoIMC ">
+    <nav class="navbar navbar-expand-lg bg-primary font">
+        <div class="container-fluid">
+            <a class="navbar-brand " href="https://www.instagram.com/tizzimattiuzzi_47/" target="_blank"><img
+                    src="imagenes/logo hoja.png" class="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link active " aria-current="page" href="index1.html">inicio</a>
+                    <a class="nav-link active" href="index2.html">Contacto</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container my-5">
+        <div class="row   py-5 px-5">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 py-2 imc">
+                <main id="container">
+                    <section id="img_imc">
+                        <img src="imagenes/undraw_personal_trainer_re_cnua (1).svg">
+                    </section>
+                    <section id="calculadora">
+                        <form id="form">
+                            <h1 id="titulo">Calculadora - IMC</h1>
+                            <div class="inputbox">
+                                <label for="peso">indica tu peso (kg)</label>
+                            </div>
+                            <div class="input_peso">
+                                <i class="fa-solid fa-weight-hanging" style="color: #165eda;"></i>
+                                <input type="number" id="peso" required>
+                                <span>Kg</span>
+                            </div>
+                            <div class="inputbox">
+                                <label for="altura">indica tu altura (M)</label>
+                            </div>
+                            <div class="input_peso">
+                                <i class="fa-solid fa-ruler" style="color: #185ed8;"></i>
+                                <input type="number" id="altura" required>
+                                <span>M</span>
+                            </div>
+                            <button type="button" class="btn btn-primary my-2" id="calcular">CALCULAR</button>
+                        </form>
+                        <div id="info" class="hidden">
+                            <div id="resultado">
+                                <div id="bmi">
+                                    <span id="valor">55</span>
+                                    <span>este es su IMC.</span>
+                                </div>
+                            </div>
+                            <div id="descripcion">
+                                <span>55</span>
+                            </div>
+                        </div>
+                    </section>
+                </main>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

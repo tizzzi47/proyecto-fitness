@@ -1,104 +1,244 @@
-
-
-
-  @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Indie+Flower&display=swap');
 
 
 
 
-.fondos{
+.fondos {
   background-image: url(/imagenes/fondoss.jpg);
-  background-attachment: fixed;   
+  background-attachment: fixed;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
- .logo{
-    width: 30px;
-    height: 30px;
-   border-radius: 50%;
- }
- .font{
-   font-family: 'Cinzel', serif;
-   text-align: center;
-   margin: auto;
- }
- .ap_comida{
-    border-radius: 15px;
-    background-color: rgba(0, 100, 0, 0.457);
-    -webkit-box-shadow: -1px 3px 64px 0px rgba(255,255,255,1);
--moz-box-shadow: -1px 3px 64px 0px rgba(255,255,255,1);
-box-shadow: -1px 3px 64px 0px rgba(255,255,255,1);
-text-align: center;
-backdrop-filter: blur(15px);
- }
- .informacion_comida{
-   font-family: 'Indie Flower', cursive;
-    border-radius: 15px;
-    color: #00a309e0;
- }
- .ap_ejercicio{
-    border-radius: 15px;
-    background-color: rgba(87, 87, 87, 0.42);
-    -webkit-box-shadow: -1px 3px 64px 0px rgba(255,255,255,1);
--moz-box-shadow: -1px 3px 64px 0px rgba(255,255,255,1);
-box-shadow: -1px 3px 64px 0px rgba(255,255,255,1);
-text-align: center;
-backdrop-filter: blur(15px);
- }
- .informacion_ejercicios{
-    font-family: 'Indie Flower', cursiva;
-    border-radius: 15px;
-    color: #080808e0;
- }
-  
- #consulta{
-   resize: none;
- }
- .footers{
-width: 50px;
-height: 50px;
-display: inline-block;
-margin: auto;
-text-align: center;
- }
- .fondo_final{
-   background-color: rgba(0, 100, 0, 0.55);
-   color: white;
-   margin-top: 10%;
-  position: absolute;
 
-width: 100%;
- }
- .color_form{
-   color: white;
- }
- .card{
+.logo {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.font {
+  font-family: 'Cinzel', serif;
+  text-align: center;
+  margin: auto;
+  color: white;
+}
+
+.ap_comida {
+  border-radius: 15px;
+  background-color: rgba(0, 100, 0, 0.457);
+  -webkit-box-shadow: -1px 3px 64px 0px rgba(255, 255, 255, 1);
+  -moz-box-shadow: -1px 3px 64px 0px rgba(255, 255, 255, 1);
+  box-shadow: -1px 3px 64px 0px rgba(255, 255, 255, 1);
+  text-align: center;
+  backdrop-filter: blur(15px);
+}
+
+.informacion_comida {
+  font-family: 'Indie Flower', cursive;
+  border-radius: 15px;
+  color: #00a309e0;
+}
+
+.ap_ejercicio {
+  border-radius: 15px;
+  background-color: rgba(87, 87, 87, 0.42);
+  -webkit-box-shadow: -1px 3px 64px 0px rgba(255, 255, 255, 1);
+  -moz-box-shadow: -1px 3px 64px 0px rgba(255, 255, 255, 1);
+  box-shadow: -1px 3px 64px 0px rgba(255, 255, 255, 1);
+  text-align: center;
+  backdrop-filter: blur(15px);
+}
+
+.informacion_ejercicios {
+  font-family: 'Indie Flower', cursiva;
+  border-radius: 15px;
+  color: #080808e0;
+}
+
+#consulta {
+  resize: none;
+}
+
+.footers {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+}
+
+.fondo_final {
+  background-color: rgba(0, 100, 0, 0.55);
+  color: white;
+  margin-top: 10%;
+  position: absolute;
+  width: 100%;
+}
+
+.color_form {
+  color: white;
+}
+
+.card {
   transition: all 0.5s;
- }
- .card:hover{
-transform: scale(1.15);
- }
- .color_cont{
- background-color: rgba(26, 151, 26, 0.322);
+}
+
+.card:hover {
+  transform: scale(1.15);
+}
+
+.color_cont {
+  background-color: rgba(26, 151, 26, 0.322);
   border-radius: 30px;
   padding: 10px;
   border: 10px solid green;
   backdrop-filter: blur(15px);
- }
+}
 
- #fondo_gym{
+#fondo_gym {
   background-image: url(/imagenes/fondogym.jpg);
-  background-attachment: fixed;   
+  background-attachment: fixed;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
- }
- .cont_gym{
- background-color: rgba(100, 100, 100, 0.322);
- border-radius: 30px;
- padding: 10px;
- border: 10px solid rgb(254, 254, 254);
- backdrop-filter: blur(5px);
-color: white;
+}
+
+.cont_gym {
+  background-color: rgba(100, 100, 100, 0.322);
+  border-radius: 30px;
+  padding: 10px;
+  border: 10px solid rgb(254, 254, 254);
+  backdrop-filter: blur(5px);
+  color: white;
+}
+
+.ap_IMC {
+  border-radius: 15px;
+  background-color: rgba(19, 8, 223, 0.42);
+  -webkit-box-shadow: -1px 3px 64px 0px rgba(255, 255, 255, 1);
+  -moz-box-shadow: -1px 3px 64px 0px rgba(255, 255, 255, 1);
+  box-shadow: -1px 3px 64px 0px rgba(255, 255, 255, 1);
+  text-align: center;
+  backdrop-filter: blur(15px);
+}
+
+.fondoIMC {
+  background-image: url(/imagenes/fondoimc.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.imc {
+  font-family: 'Cinzel', serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100vh;
+
+}
+
+#container {
+  display: flex;
+  align-items: center;
+  gap: 3.5rem;
+}
+
+
+#calculadora {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+#titulo {
+  font-size: 2.25rem;
+  position: relative;
+}
+
+#titulo::after {
+  position: absolute;
+  content: " ";
+  background-color: blue;
+  width: 8rem;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  border-radius: 3px;
+}
+
+.inputbox label {
+  font-size: 1.1rem;
+  color: white;
+  font-weight: 500;
+}
+
+.input_peso {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(0, 251, 255);
+  border-radius: 5px;
+  margin-top: 3px;
+}
+
+.input_peso span,
+.input_peso i {
+  font-size: 1.3rem;
+  padding: 0.6rem 1rem;
+}
+
+.input_peso input {
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  font-size: 1.3rem;
+  color: white;
+  padding: 0 0.5rem;
+}
+
+.input_peso ::-webkit-inner-spin-button,
+.input_peso ::-webkit-inner-spin-button {
+  appearance: none;
+}
+
+.input_peso input:focus {
+  outline: none;
+}
+
+#resultado {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+border-top: 1px solid rgb(255, 255, 255);
+padding: 0.75rem 0;
+}
+#bmi{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 2.25rem;
+}
+#bmi span:last-child{
+  font-size: 0.875rem;
+  color: white;
+}
+#descripcion{
+  width: 15.5rem;
+}
+.hidden{
+  display: none;
 }
