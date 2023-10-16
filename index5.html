@@ -13,7 +13,7 @@
     <link rel="icon" href="imagenes/logo pag.png">
 </head>
 
-<body  class="fondoIMC ">
+<body class="fondoIMC ">
     <nav class="navbar navbar-expand-lg bg-primary font">
         <div class="container-fluid">
             <a class="navbar-brand " href="https://www.instagram.com/tizzimattiuzzi_47/" target="_blank"><img
@@ -30,50 +30,43 @@
             </div>
         </div>
     </nav>
+
     <div class="container my-5">
-        <div class="row   py-5 px-5">
-            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 py-2 imc">
-                <main id="container">
-                    <section id="img_imc">
-                        <img src="imagenes/undraw_personal_trainer_re_cnua (1).svg">
-                    </section>
-                    <section id="calculadora">
-                        <form id="form">
-                            <h1 id="titulo">Calculadora - IMC</h1>
-                            <div class="inputbox">
-                                <label for="peso">indica tu peso (kg)</label>
-                            </div>
-                            <div class="input_peso">
-                                <i class="fa-solid fa-weight-hanging" style="color: #165eda;"></i>
-                                <input type="number" id="peso" required>
-                                <span>Kg</span>
-                            </div>
-                            <div class="inputbox">
-                                <label for="altura">indica tu altura (M)</label>
-                            </div>
-                            <div class="input_peso">
-                                <i class="fa-solid fa-ruler" style="color: #185ed8;"></i>
-                                <input type="number" id="altura" required>
-                                <span>M</span>
-                            </div>
-                            <button type="button" class="btn btn-primary my-2" id="calcular">CALCULAR</button>
-                        </form>
-                        <div id="info" class="hidden">
-                            <div id="resultado">
-                                <div id="bmi">
-                                    <span id="valor">55</span>
-                                    <span>este es su IMC.</span>
-                                </div>
-                            </div>
-                            <div id="descripcion">
-                                <span>55</span>
-                            </div>
-                        </div>
-                    </section>
-                </main>
+        <div class="row py-5 px-5">
+            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 py-2 font ">
+                <img src="imagenes/imc imagen.jpg" id="imgimc">
+                <h4 class="my-4">
+                    Si su IMC es menos de 18.5, se encuentra dentro del rango de peso insuficiente. Si su IMC es entre
+                    18.5 y 24.9, se encuentra dentro del rango de peso normal o saludable. Si su IMC es entre 25.0 y
+                    29.9, se encuentra dentro del rango de sobrepeso. Si su IMC es 30.0 o superior, se encuentra dentro
+                    del rango de obesidad.
+                </h4>
             </div>
+            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 py-2 font ">
+                <h1>CALCULADORA IMC</h1>
+                <form class="calcimc my-4">
+                    <label for="txtpeso" class="my-3">ingrese su peso<br>
+                        <i class="fa-solid fa-weight-hanging" style="color: #7caaf8;"></i>
+                        <input type="text" id="txtpeso" class="my-3 mx-2">
+                    </label>
+                    <br>
+                    <label for="txtaltura">ingrese su altura<br>
+                        <i class="fa-solid fa-ruler" style="color: #6da0f8;"></i>
+                        <input type="text" id="txtaltura" class="my-3 mx-2">
+                    </label>
+                    <br>
+                    <label id="tuimc"> realiza el test de imc <br>
+                        <button id="btncalcular" class="my-3">Calcular</button>
+                    </label>
+                </form>
+            </div>
+
         </div>
     </div>
+
+    <script src="js/script.js"></script>
+    <script src="js/bootstrap.js"></script>
+
 </body>
 
 </html>
